@@ -14,7 +14,7 @@ public class ResourceIdentifier implements Serializable {
 
     private Document document;
     private String type;
-    private String id;
+    public String id;
     private JsonBuffer meta;
 
     public ResourceIdentifier() {
