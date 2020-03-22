@@ -18,7 +18,7 @@ public class ResourceIdentifier implements Serializable {
     private JsonBuffer meta;
 
     public ResourceIdentifier() {
-        this(null, null);
+        //this(null, null);
     }
 
     public ResourceIdentifier(ResourceIdentifier identifier) {
